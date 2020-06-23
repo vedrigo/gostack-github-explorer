@@ -7,7 +7,7 @@ import { Switch, Route } from "react-router-dom";
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Dashboar} />
-    <Route path="/repository" component={Repository} />
+    <Route path="/repository/:repository+" component={Repository} />
   </Switch>
 );
 
